@@ -1,0 +1,31 @@
+
+version: 2
+
+sources:
+  - name: public
+    schema: public
+    tables:
+      - name: tb
+        identifier: trial_balances
+        description: "Source table for trial balances data."
+
+models:
+  - name: staging_trial_balances
+    description: "Staging model for trial balances with calculated period amount."
+    columns:
+      - name: account_id
+        description: "Unique identifier for each account."
+      - name: account_name
+        description: "Name of the account."
+      - name: account_type
+        description: "Type of the account (e.g., Asset, Liability, Expense)."
+      - name: year
+        description: "Year of the trial balance entry."
+      - name: month
+        description: "Month of the trial balance entry."
+      - name: debit
+        description: "Debit amount for the account."
+      - name: credit
+        description: "Credit amount for the account."
+      - name: period_amount
+        description: "Calculated period amount as debit minus credit."

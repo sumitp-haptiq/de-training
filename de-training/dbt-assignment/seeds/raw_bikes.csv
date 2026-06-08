@@ -1,0 +1,9 @@
+bike_id,model_type,rental_price,status
+101,electric_road,2500,available
+102,mountain_e_bike,3000,maintenance
+103,city_cruiser,1500,available
+104,electric_road,2500,available
+105,mountain_e_bike,3000,available
+106,city_cruiser,1500,lost
+107,electric_road,2500,available
+108,mountain_e_bike,3000,available

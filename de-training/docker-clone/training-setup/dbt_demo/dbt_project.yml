@@ -1,0 +1,22 @@
+name: dbt_demo
+
+profile: dbt_demo
+
+seed-paths: ["seeds"]
+model-paths: ["models"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+seeds:
+  # Builds seeds into '<your_schema_name>_raw'
+  dbt_demo:
+
+models:
+  dbt_demo:
+    staging_trial_balances:
+      materialized: incremental
+    marts:
+      materialized: table

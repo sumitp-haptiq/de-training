@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stock Chart Viewer</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #0f172a;
+      color: #f1f5f9;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2.5rem 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 0.4rem;
+      background: linear-gradient(90deg, #38bdf8, #818cf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      color: #64748b;
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+    }
+
+    form {
+      display: flex;
+      gap: 0.6rem;
+      width: 100%;
+      max-width: 480px;
+      margin-bottom: 2rem;
+    }
+
+    input[type="text"] {
+      flex: 1;
+      padding: 0.75rem 1.1rem;
+      border-radius: 10px;
+      border: 1.5px solid #334155;
+      background: #1e293b;
+      color: #f1f5f9;
+      font-size: 1rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    input[type="text"]:focus { border-color: #38bdf8; }
+    input[type="text"]::placeholder { color: #475569; }
+
+    button {
+      padding: 0.75rem 1.6rem;
+      border-radius: 10px;
+      border: none;
+      background: linear-gradient(135deg, #38bdf8, #818cf8);
+      color: #0f172a;
+      font-weight: 700;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+
+    button:hover { opacity: 0.85; }
+
+    .error {
+      background: #450a0a;
+      border: 1px solid #b91c1c;
+      color: #fca5a5;
+      padding: 0.8rem 1.2rem;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      max-width: 700px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 0.8rem;
+      width: 100%;
+      max-width: 760px;
+      margin-bottom: 1.5rem;
+    }
+
+    .stat-card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      padding: 0.9rem 1rem;
+      text-align: center;
+    }
+
+    .stat-label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #64748b;
+      margin-bottom: 0.3rem;
+    }
+
+    .stat-value {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #f1f5f9;
+    }
+
+    .stat-value.positive { color: #4ade80; }
+    .stat-value.negative { color: #f87171; }
+
+    .chart-wrapper {
+      width: 100%;
+      max-width: 960px;
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 16px;
+      padding: 1rem;
+      overflow: hidden;
+    }
+
+    .chart-wrapper img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      display: block;
+    }
+
+    .footer {
+      margin-top: 3rem;
+      color: #334155;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Stock Chart Viewer</h1>
+  <p class="subtitle">Enter a ticker to see the last 5 days of price &amp; volume data</p>
+
+  <form method="POST" action="/">
+    <input
+      type="text"
+      name="ticker"
+      placeholder="e.g. AAPL, TSLA, MSFT"
+      value="{{ ticker or '' }}"
+      autofocus
+      autocomplete="off"
+    />
+    <button type="submit">Search</button>
+  </form>
+
+  {% if error %}
+    <div class="error">{{ error }}</div>
+  {% endif %}
+
+  {% if stats %}
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-label">Open</div>
+        <div class="stat-value">${{ stats.open }}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Close</div>
+        <div class="stat-value">${{ stats.close }}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">5d High</div>
+        <div class="stat-value">${{ stats.high }}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">5d Low</div>
+        <div class="stat-value">${{ stats.low }}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Total Volume</div>
+        <div class="stat-value">{{ stats.volume }}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Change</div>
+        <div class="stat-value {{ 'positive' if stats.change >= 0 else 'negative' }}">
+          {{ '+' if stats.change >= 0 else '' }}{{ stats.change }}
+          ({{ '+' if stats.change_pct >= 0 else '' }}{{ stats.change_pct }}%)
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+  {% if chart %}
+    <div class="chart-wrapper">
+      <img src="data:image/png;base64,{{ chart }}" alt="Stock chart for {{ ticker }}" />
+    </div>
+  {% endif %}
+
+  <p class="footer">Powered by yfinance &amp; Flask</p>
+
+</body>
+</html>

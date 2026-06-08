@@ -1,0 +1,53 @@
+version: 2
+
+sources:
+  - name: greenwheel
+    description: Raw GreenWheel data loaded from CSV seeds
+    schema: greenwheel
+    tables:
+      - name: raw_users
+        description: Bike rental customers
+        columns:
+          - name: user_id
+            tests:
+              - unique
+              - not_null
+      - name: raw_bikes
+        description: Electric bike inventory
+        columns:
+          - name: bike_id
+            tests:
+              - unique
+              - not_null
+      - name: raw_trips
+        description: Trip transactions
+        columns:
+          - name: trip_id
+            tests:
+              - unique
+              - not_null
+
+models:
+  - name: stg_users
+    description: Cleaned user records with standardized name and email casing
+    columns:
+      - name: user_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_bikes
+    description: Cleaned bike inventory with renamed model column
+    columns:
+      - name: bike_id
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_bike_usage
+    description: Total cost and riding minutes aggregated per bike
+    columns:
+      - name: bike_id
+        tests:
+          - unique
+          - not_null

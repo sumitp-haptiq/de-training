@@ -1,0 +1,15 @@
+.DS_Store
+list
+dbt/
+logs/
+flows/__pycache__/
+
+dbt_demo/dbt_packages/
+dbt_demo/dbt_internal_packages/
+dbt_demo/logs/
+dbt_demo/target/
+dbt_demo/.vscode
+
+dbt_demo/.DS_Store
+dbt_demo/.user.yml
+dbt_demo/package-lock.yml

@@ -1,0 +1,35 @@
+FROM prefecthq/prefect:2-python3.11
+
+# Install system dependencies for dbt (must be root for apt-get)
+USER root
+RUN apt-get update && apt-get install -y \
+    git \
+    curl \
+    vim \
+    build-essential \
+    libpq-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install dbt and Postgres adapter (install as root, accessible to all users)
+RUN pip install --no-cache-dir dbt-postgres
+
+# Install Python dependencies for Prefect flows
+RUN pip install --no-cache-dir \
+    psycopg2-binary \
+    requests \
+    sqlalchemy \
+    pandas
+
+# Create app directory with proper permissions
+# Make it accessible to any user (volume mounts will override permissions anyway)
+RUN mkdir -p /usr/app && chmod 755 /usr/app
+
+# Copy worker startup script
+COPY prefect-worker-start.sh /usr/local/bin/prefect-worker-start.sh
+RUN chmod +x /usr/local/bin/prefect-worker-start.sh
+
+WORKDIR /usr/app
+
+# Return to the default user that the Prefect image uses
+# The base image will handle the user context
+# We stay as root here since we've already installed everything system-wide

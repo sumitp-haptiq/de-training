@@ -1,0 +1,12 @@
+greenwheel:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      port: 5432
+      user: dbt_user
+      password: dbt_pass
+      database: dbt_demo
+      schema: greenwheel
+      threads: 4

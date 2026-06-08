@@ -1,0 +1,134 @@
+services:
+  db:
+    image: postgres:15
+    container_name: dbt_postgres
+    environment:
+      POSTGRES_USER: dbt_user
+      POSTGRES_PASSWORD: dbt_pass
+      POSTGRES_DB: dbt_demo
+    ports:
+      - "5432:5432"
+    volumes:
+      - dbt_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dbt_user -d dbt_demo"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - dbt_prefect_network
+
+  prefect-db:
+    image: postgres:15
+    container_name: prefect_postgres
+    environment:
+      POSTGRES_USER: prefect_user
+      POSTGRES_PASSWORD: prefect_pass
+      POSTGRES_DB: prefect_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - prefect_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U prefect_user -d prefect_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - dbt_prefect_network
+
+  prefect:
+    build:
+      context: .
+      dockerfile: Dockerfile.prefect
+    container_name: prefect_server
+    ports:
+      - "4200:4200"
+    volumes:
+      - ./prefect_data:/home/prefect/.prefect
+      # Change the path to your local path
+      - C:/Users/Sumit Puri/Desktop/Training/docker-clone/training-setup:/usr/app
+    depends_on:
+      db:
+        condition: service_healthy
+      prefect-db:
+        condition: service_healthy
+    environment:
+      PREFECT_API_DATABASE_CONNECTION_URL: postgresql+asyncpg://prefect_user:prefect_pass@prefect-db:5432/prefect_db
+      PREFECT_API_URL: http://localhost:4200/api
+      DBT_PROFILES_DIR: /usr/app/dbt_demo
+      DBT_PROJECT_DIR: /usr/app/dbt_demo
+      # Database connection for dbt
+      DBT_HOST: db
+      DBT_USER: dbt_user
+      DBT_PASS: dbt_pass
+    networks:
+      - dbt_prefect_network
+    command: prefect server start --host 0.0.0.0 --port 4200
+    working_dir: /usr/app
+    tty: true
+    stdin_open: true
+
+  prefect-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.prefect
+    container_name: prefect_worker
+    volumes:
+      - ./prefect_data:/home/prefect/.prefect
+      # Change the path to your local path
+      - C:/Users/Sumit Puri/Desktop/Training/docker-clone/training-setup:/usr/app
+    depends_on:
+      prefect:
+        condition: service_started
+      db:
+        condition: service_healthy
+    environment:
+      PREFECT_API_URL: http://prefect:4200/api
+      DBT_PROFILES_DIR: /usr/app/dbt_demo
+      DBT_PROJECT_DIR: /usr/app/dbt_demo
+      # Database connection for dbt
+      DBT_HOST: db
+      DBT_USER: dbt_user
+      DBT_PASS: dbt_pass
+    networks:
+      - dbt_prefect_network
+    # Worker will wait for Prefect API, create work pool if needed, then start
+    command: /usr/local/bin/prefect-worker-start.sh
+    working_dir: /usr/app
+    restart: unless-stopped
+  
+  dbt_container:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dbt_container
+    ports:
+      - "8080:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DBT_PROFILES_DIR: /usr/app/dbt_demo
+      DBT_PROJECT_DIR: /usr/app/dbt_demo
+      DBT_HOST: db
+      DBT_USER: dbt_user
+      DBT_PASS: dbt_pass
+    volumes:
+      # Change the path to your local path
+      - C:/Users/Sumit Puri/Desktop/Training/docker-clone/training-setup:/usr/app
+    networks:
+      - dbt_prefect_network
+    working_dir: /usr/app
+    tty: true
+    stdin_open: true
+    # Keeps the container running so you can: docker compose exec dbt_container bash
+    command: sleep infinity
+
+networks:
+  dbt_prefect_network:
+    driver: bridge
+
+volumes:
+  dbt_db_data:
+  prefect_db_data:

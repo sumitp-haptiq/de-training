@@ -1,0 +1,14 @@
+---
+alwaysApply: false
+---
+Always activate the existing `.venv` virtual environment before running Python commands on Windows.
+
+Use:
+PowerShell:
+.\.venv\Scripts\Activate.ps1
+
+Command Prompt:
+.venv\Scripts\activate
+
+Do not create a new virtual environment unless explicitly asked.
+Prefer using the project's existing interpreter and installed dependencies.

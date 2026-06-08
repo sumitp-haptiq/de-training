@@ -1,0 +1,697 @@
+Account_ID,Account_Name,Category,Month,Debit,Credit
+10000,Cash,Asset,2024-01,7370,0
+10001,Accounts Receivable,Asset,2024-01,960,0
+10002,Inventory,Asset,2024-01,5490,0
+10003,Prepaid Expenses,Asset,2024-01,5291,0
+10004,Fixed Assets,Asset,2024-01,5834,0
+20000,Accounts Payable,Liability,2024-01,0,6365
+20001,Accrued Expenses,Liability,2024-01,0,566
+20002,Short-Term Debt,Liability,2024-01,0,4526
+20003,Long-Term Debt,Liability,2024-01,0,5678
+30000,Common Stock,Equity,2024-01,0,8422
+30001,Retained Earnings,Equity,2024-01,0,54414
+40000,Sales Revenue,Revenue,2024-01,0,869
+40001,Service Revenue,Revenue,2024-01,0,7049
+40002,Interest Income,Revenue,2024-01,0,2533
+40003,Other Income,Revenue,2024-01,0,5411
+50000,Salary Expense,Expense,2024-01,5151,0
+50001,Rent Expense,Expense,2024-01,6520,0
+50002,Utilities Expense,Expense,2024-01,1284,0
+50003,Supplies Expense,Expense,2024-01,4655,0
+50004,Depreciation Expense,Expense,2024-01,3485,0
+50005,Marketing Expense,Expense,2024-01,6496,0
+50006,Travel Expense,Expense,2024-01,8766,0
+50007,Insurance Expense,Expense,2024-01,9374,0
+50008,IT Expense,Expense,2024-01,2658,0
+50009,Bank Charges,Expense,2024-01,7949,0
+50010,Telephone Expense,Expense,2024-01,2147,0
+50011,Repairs & Maintenance,Expense,2024-01,2847,0
+50012,Payroll Tax Expense,Expense,2024-01,9267,0
+50013,Training Expense,Expense,2024-01,289,0
+10000,Cash,Asset,2024-02,2834,0
+10001,Accounts Receivable,Asset,2024-02,3105,0
+10002,Inventory,Asset,2024-02,4758,0
+10003,Prepaid Expenses,Asset,2024-02,1999,0
+10004,Fixed Assets,Asset,2024-02,7834,0
+20000,Accounts Payable,Liability,2024-02,0,1367
+20001,Accrued Expenses,Liability,2024-02,0,1628
+20002,Short-Term Debt,Liability,2024-02,0,3656
+20003,Long-Term Debt,Liability,2024-02,0,3990
+30000,Common Stock,Equity,2024-02,0,8938
+30001,Retained Earnings,Equity,2024-02,0,49017
+40000,Sales Revenue,Revenue,2024-02,0,8892
+40001,Service Revenue,Revenue,2024-02,0,8533
+40002,Interest Income,Revenue,2024-02,0,7613
+40003,Other Income,Revenue,2024-02,0,2712
+50000,Salary Expense,Expense,2024-02,7141,0
+50001,Rent Expense,Expense,2024-02,9655,0
+50002,Utilities Expense,Expense,2024-02,6335,0
+50003,Supplies Expense,Expense,2024-02,5586,0
+50004,Depreciation Expense,Expense,2024-02,7199,0
+50005,Marketing Expense,Expense,2024-02,9770,0
+50006,Travel Expense,Expense,2024-02,875,0
+50007,Insurance Expense,Expense,2024-02,8326,0
+50008,IT Expense,Expense,2024-02,3252,0
+50009,Bank Charges,Expense,2024-02,1685,0
+50010,Telephone Expense,Expense,2024-02,4043,0
+50011,Repairs & Maintenance,Expense,2024-02,7655,0
+50012,Payroll Tax Expense,Expense,2024-02,3173,0
+50013,Training Expense,Expense,2024-02,1121,0
+10000,Cash,Asset,2024-03,3943,0
+10001,Accounts Receivable,Asset,2024-03,8089,0
+10002,Inventory,Asset,2024-03,9792,0
+10003,Prepaid Expenses,Asset,2024-03,6973,0
+10004,Fixed Assets,Asset,2024-03,5775,0
+20000,Accounts Payable,Liability,2024-03,0,261
+20001,Accrued Expenses,Liability,2024-03,0,4397
+20002,Short-Term Debt,Liability,2024-03,0,1095
+20003,Long-Term Debt,Liability,2024-03,0,7729
+30000,Common Stock,Equity,2024-03,0,9567
+30001,Retained Earnings,Equity,2024-03,0,65999
+40000,Sales Revenue,Revenue,2024-03,0,7969
+40001,Service Revenue,Revenue,2024-03,0,6539
+40002,Interest Income,Revenue,2024-03,0,7992
+40003,Other Income,Revenue,2024-03,0,6963
+50000,Salary Expense,Expense,2024-03,8016,0
+50001,Rent Expense,Expense,2024-03,8629,0
+50002,Utilities Expense,Expense,2024-03,978,0
+50003,Supplies Expense,Expense,2024-03,9368,0
+50004,Depreciation Expense,Expense,2024-03,4987,0
+50005,Marketing Expense,Expense,2024-03,4959,0
+50006,Travel Expense,Expense,2024-03,6431,0
+50007,Insurance Expense,Expense,2024-03,8671,0
+50008,IT Expense,Expense,2024-03,8784,0
+50009,Bank Charges,Expense,2024-03,7308,0
+50010,Telephone Expense,Expense,2024-03,5376,0
+50011,Repairs & Maintenance,Expense,2024-03,2162,0
+50012,Payroll Tax Expense,Expense,2024-03,164,0
+50013,Training Expense,Expense,2024-03,8106,0
+10000,Cash,Asset,2024-04,2668,0
+10001,Accounts Receivable,Asset,2024-04,5563,0
+10002,Inventory,Asset,2024-04,2127,0
+10003,Prepaid Expenses,Asset,2024-04,2795,0
+10004,Fixed Assets,Asset,2024-04,9787,0
+20000,Accounts Payable,Liability,2024-04,0,5358
+20001,Accrued Expenses,Liability,2024-04,0,5718
+20002,Short-Term Debt,Liability,2024-04,0,6836
+20003,Long-Term Debt,Liability,2024-04,0,491
+30000,Common Stock,Equity,2024-04,0,5992
+30001,Retained Earnings,Equity,2024-04,0,50839
+40000,Sales Revenue,Revenue,2024-04,0,6284
+40001,Service Revenue,Revenue,2024-04,0,3199
+40002,Interest Income,Revenue,2024-04,0,6378
+40003,Other Income,Revenue,2024-04,0,8492
+50000,Salary Expense,Expense,2024-04,3204,0
+50001,Rent Expense,Expense,2024-04,7315,0
+50002,Utilities Expense,Expense,2024-04,2554,0
+50003,Supplies Expense,Expense,2024-04,9096,0
+50004,Depreciation Expense,Expense,2024-04,2831,0
+50005,Marketing Expense,Expense,2024-04,8254,0
+50006,Travel Expense,Expense,2024-04,9862,0
+50007,Insurance Expense,Expense,2024-04,5156,0
+50008,IT Expense,Expense,2024-04,8210,0
+50009,Bank Charges,Expense,2024-04,3940,0
+50010,Telephone Expense,Expense,2024-04,1128,0
+50011,Repairs & Maintenance,Expense,2024-04,7485,0
+50012,Payroll Tax Expense,Expense,2024-04,602,0
+50013,Training Expense,Expense,2024-04,7010,0
+10000,Cash,Asset,2024-05,9162,0
+10001,Accounts Receivable,Asset,2024-05,7038,0
+10002,Inventory,Asset,2024-05,4588,0
+10003,Prepaid Expenses,Asset,2024-05,306,0
+10004,Fixed Assets,Asset,2024-05,5234,0
+20000,Accounts Payable,Liability,2024-05,0,6077
+20001,Accrued Expenses,Liability,2024-05,0,7821
+20002,Short-Term Debt,Liability,2024-05,0,7135
+20003,Long-Term Debt,Liability,2024-05,0,1584
+30000,Common Stock,Equity,2024-05,0,7958
+30001,Retained Earnings,Equity,2024-05,0,40137
+40000,Sales Revenue,Revenue,2024-05,0,2890
+40001,Service Revenue,Revenue,2024-05,0,7508
+40002,Interest Income,Revenue,2024-05,0,8855
+40003,Other Income,Revenue,2024-05,0,5216
+50000,Salary Expense,Expense,2024-05,6119,0
+50001,Rent Expense,Expense,2024-05,1857,0
+50002,Utilities Expense,Expense,2024-05,7674,0
+50003,Supplies Expense,Expense,2024-05,6474,0
+50004,Depreciation Expense,Expense,2024-05,6992,0
+50005,Marketing Expense,Expense,2024-05,1778,0
+50006,Travel Expense,Expense,2024-05,3342,0
+50007,Insurance Expense,Expense,2024-05,4736,0
+50008,IT Expense,Expense,2024-05,1159,0
+50009,Bank Charges,Expense,2024-05,6768,0
+50010,Telephone Expense,Expense,2024-05,3257,0
+50011,Repairs & Maintenance,Expense,2024-05,6015,0
+50012,Payroll Tax Expense,Expense,2024-05,9889,0
+50013,Training Expense,Expense,2024-05,2793,0
+10000,Cash,Asset,2024-06,3727,0
+10001,Accounts Receivable,Asset,2024-06,9655,0
+10002,Inventory,Asset,2024-06,5550,0
+10003,Prepaid Expenses,Asset,2024-06,1763,0
+10004,Fixed Assets,Asset,2024-06,9821,0
+20000,Accounts Payable,Liability,2024-06,0,5692
+20001,Accrued Expenses,Liability,2024-06,0,7492
+20002,Short-Term Debt,Liability,2024-06,0,1406
+20003,Long-Term Debt,Liability,2024-06,0,6876
+30000,Common Stock,Equity,2024-06,0,5964
+30001,Retained Earnings,Equity,2024-06,0,30028
+40000,Sales Revenue,Revenue,2024-06,0,7626
+40001,Service Revenue,Revenue,2024-06,0,9001
+40002,Interest Income,Revenue,2024-06,0,5675
+40003,Other Income,Revenue,2024-06,0,5630
+50000,Salary Expense,Expense,2024-06,4513,0
+50001,Rent Expense,Expense,2024-06,3848,0
+50002,Utilities Expense,Expense,2024-06,763,0
+50003,Supplies Expense,Expense,2024-06,2098,0
+50004,Depreciation Expense,Expense,2024-06,8094,0
+50005,Marketing Expense,Expense,2024-06,1595,0
+50006,Travel Expense,Expense,2024-06,3404,0
+50007,Insurance Expense,Expense,2024-06,3863,0
+50008,IT Expense,Expense,2024-06,5332,0
+50009,Bank Charges,Expense,2024-06,1953,0
+50010,Telephone Expense,Expense,2024-06,6685,0
+50011,Repairs & Maintenance,Expense,2024-06,1391,0
+50012,Payroll Tax Expense,Expense,2024-06,3681,0
+50013,Training Expense,Expense,2024-06,7654,0
+10000,Cash,Asset,2024-07,7380,0
+10001,Accounts Receivable,Asset,2024-07,1736,0
+10002,Inventory,Asset,2024-07,3796,0
+10003,Prepaid Expenses,Asset,2024-07,798,0
+10004,Fixed Assets,Asset,2024-07,4837,0
+20000,Accounts Payable,Liability,2024-07,0,954
+20001,Accrued Expenses,Liability,2024-07,0,8264
+20002,Short-Term Debt,Liability,2024-07,0,5955
+20003,Long-Term Debt,Liability,2024-07,0,7492
+30000,Common Stock,Equity,2024-07,0,6628
+30001,Retained Earnings,Equity,2024-07,0,34835
+40000,Sales Revenue,Revenue,2024-07,0,5272
+40001,Service Revenue,Revenue,2024-07,0,1807
+40002,Interest Income,Revenue,2024-07,0,5891
+40003,Other Income,Revenue,2024-07,0,5635
+50000,Salary Expense,Expense,2024-07,5031,0
+50001,Rent Expense,Expense,2024-07,3610,0
+50002,Utilities Expense,Expense,2024-07,302,0
+50003,Supplies Expense,Expense,2024-07,4318,0
+50004,Depreciation Expense,Expense,2024-07,9058,0
+50005,Marketing Expense,Expense,2024-07,4489,0
+50006,Travel Expense,Expense,2024-07,2427,0
+50007,Insurance Expense,Expense,2024-07,8104,0
+50008,IT Expense,Expense,2024-07,3031,0
+50009,Bank Charges,Expense,2024-07,7877,0
+50010,Telephone Expense,Expense,2024-07,297,0
+50011,Repairs & Maintenance,Expense,2024-07,7225,0
+50012,Payroll Tax Expense,Expense,2024-07,2030,0
+50013,Training Expense,Expense,2024-07,6387,0
+10000,Cash,Asset,2024-08,8900,0
+10001,Accounts Receivable,Asset,2024-08,9439,0
+10002,Inventory,Asset,2024-08,4382,0
+10003,Prepaid Expenses,Asset,2024-08,2611,0
+10004,Fixed Assets,Asset,2024-08,759,0
+20000,Accounts Payable,Liability,2024-08,0,2911
+20001,Accrued Expenses,Liability,2024-08,0,7198
+20002,Short-Term Debt,Liability,2024-08,0,6646
+20003,Long-Term Debt,Liability,2024-08,0,9661
+30000,Common Stock,Equity,2024-08,0,2086
+30001,Retained Earnings,Equity,2024-08,0,48767
+40000,Sales Revenue,Revenue,2024-08,0,3011
+40001,Service Revenue,Revenue,2024-08,0,1834
+40002,Interest Income,Revenue,2024-08,0,1943
+40003,Other Income,Revenue,2024-08,0,8780
+50000,Salary Expense,Expense,2024-08,3076,0
+50001,Rent Expense,Expense,2024-08,2059,0
+50002,Utilities Expense,Expense,2024-08,5859,0
+50003,Supplies Expense,Expense,2024-08,6794,0
+50004,Depreciation Expense,Expense,2024-08,2485,0
+50005,Marketing Expense,Expense,2024-08,4836,0
+50006,Travel Expense,Expense,2024-08,1902,0
+50007,Insurance Expense,Expense,2024-08,8255,0
+50008,IT Expense,Expense,2024-08,8220,0
+50009,Bank Charges,Expense,2024-08,6716,0
+50010,Telephone Expense,Expense,2024-08,5634,0
+50011,Repairs & Maintenance,Expense,2024-08,4161,0
+50012,Payroll Tax Expense,Expense,2024-08,362,0
+50013,Training Expense,Expense,2024-08,6387,0
+10000,Cash,Asset,2024-09,8915,0
+10001,Accounts Receivable,Asset,2024-09,9308,0
+10002,Inventory,Asset,2024-09,2149,0
+10003,Prepaid Expenses,Asset,2024-09,5523,0
+10004,Fixed Assets,Asset,2024-09,4648,0
+20000,Accounts Payable,Liability,2024-09,0,3208
+20001,Accrued Expenses,Liability,2024-09,0,7258
+20002,Short-Term Debt,Liability,2024-09,0,7500
+20003,Long-Term Debt,Liability,2024-09,0,3270
+30000,Common Stock,Equity,2024-09,0,9974
+30001,Retained Earnings,Equity,2024-09,0,47227
+40000,Sales Revenue,Revenue,2024-09,0,1254
+40001,Service Revenue,Revenue,2024-09,0,4599
+40002,Interest Income,Revenue,2024-09,0,6395
+40003,Other Income,Revenue,2024-09,0,6297
+50000,Salary Expense,Expense,2024-09,9988,0
+50001,Rent Expense,Expense,2024-09,1748,0
+50002,Utilities Expense,Expense,2024-09,5639,0
+50003,Supplies Expense,Expense,2024-09,9737,0
+50004,Depreciation Expense,Expense,2024-09,4299,0
+50005,Marketing Expense,Expense,2024-09,8545,0
+50006,Travel Expense,Expense,2024-09,2657,0
+50007,Insurance Expense,Expense,2024-09,5692,0
+50008,IT Expense,Expense,2024-09,198,0
+50009,Bank Charges,Expense,2024-09,2300,0
+50010,Telephone Expense,Expense,2024-09,3061,0
+50011,Repairs & Maintenance,Expense,2024-09,5073,0
+50012,Payroll Tax Expense,Expense,2024-09,4533,0
+50013,Training Expense,Expense,2024-09,2969,0
+10000,Cash,Asset,2024-10,1056,0
+10001,Accounts Receivable,Asset,2024-10,8452,0
+10002,Inventory,Asset,2024-10,5799,0
+10003,Prepaid Expenses,Asset,2024-10,7044,0
+10004,Fixed Assets,Asset,2024-10,4593,0
+20000,Accounts Payable,Liability,2024-10,0,9592
+20001,Accrued Expenses,Liability,2024-10,0,5011
+20002,Short-Term Debt,Liability,2024-10,0,4087
+20003,Long-Term Debt,Liability,2024-10,0,9819
+30000,Common Stock,Equity,2024-10,0,6115
+30001,Retained Earnings,Equity,2024-10,0,39845
+40000,Sales Revenue,Revenue,2024-10,0,4596
+40001,Service Revenue,Revenue,2024-10,0,4835
+40002,Interest Income,Revenue,2024-10,0,4655
+40003,Other Income,Revenue,2024-10,0,9246
+50000,Salary Expense,Expense,2024-10,8150,0
+50001,Rent Expense,Expense,2024-10,3546,0
+50002,Utilities Expense,Expense,2024-10,1145,0
+50003,Supplies Expense,Expense,2024-10,6993,0
+50004,Depreciation Expense,Expense,2024-10,1793,0
+50005,Marketing Expense,Expense,2024-10,3536,0
+50006,Travel Expense,Expense,2024-10,8854,0
+50007,Insurance Expense,Expense,2024-10,5995,0
+50008,IT Expense,Expense,2024-10,3454,0
+50009,Bank Charges,Expense,2024-10,325,0
+50010,Telephone Expense,Expense,2024-10,4993,0
+50011,Repairs & Maintenance,Expense,2024-10,7122,0
+50012,Payroll Tax Expense,Expense,2024-10,9251,0
+50013,Training Expense,Expense,2024-10,5700,0
+10000,Cash,Asset,2024-11,8096,0
+10001,Accounts Receivable,Asset,2024-11,9107,0
+10002,Inventory,Asset,2024-11,7783,0
+10003,Prepaid Expenses,Asset,2024-11,4742,0
+10004,Fixed Assets,Asset,2024-11,7779,0
+20000,Accounts Payable,Liability,2024-11,0,8308
+20001,Accrued Expenses,Liability,2024-11,0,7439
+20002,Short-Term Debt,Liability,2024-11,0,9535
+20003,Long-Term Debt,Liability,2024-11,0,2305
+30000,Common Stock,Equity,2024-11,0,1169
+30001,Retained Earnings,Equity,2024-11,0,49824
+40000,Sales Revenue,Revenue,2024-11,0,1160
+40001,Service Revenue,Revenue,2024-11,0,2427
+40002,Interest Income,Revenue,2024-11,0,3520
+40003,Other Income,Revenue,2024-11,0,401
+50000,Salary Expense,Expense,2024-11,706,0
+50001,Rent Expense,Expense,2024-11,3270,0
+50002,Utilities Expense,Expense,2024-11,799,0
+50003,Supplies Expense,Expense,2024-11,5188,0
+50004,Depreciation Expense,Expense,2024-11,9431,0
+50005,Marketing Expense,Expense,2024-11,290,0
+50006,Travel Expense,Expense,2024-11,1080,0
+50007,Insurance Expense,Expense,2024-11,3075,0
+50008,IT Expense,Expense,2024-11,6202,0
+50009,Bank Charges,Expense,2024-11,1284,0
+50010,Telephone Expense,Expense,2024-11,3427,0
+50011,Repairs & Maintenance,Expense,2024-11,3494,0
+50012,Payroll Tax Expense,Expense,2024-11,8419,0
+50013,Training Expense,Expense,2024-11,1916,0
+10000,Cash,Asset,2024-12,5954,0
+10001,Accounts Receivable,Asset,2024-12,6809,0
+10002,Inventory,Asset,2024-12,669,0
+10003,Prepaid Expenses,Asset,2024-12,5542,0
+10004,Fixed Assets,Asset,2024-12,1995,0
+20000,Accounts Payable,Liability,2024-12,0,2833
+20001,Accrued Expenses,Liability,2024-12,0,3963
+20002,Short-Term Debt,Liability,2024-12,0,7555
+20003,Long-Term Debt,Liability,2024-12,0,4114
+30000,Common Stock,Equity,2024-12,0,1786
+30001,Retained Earnings,Equity,2024-12,0,68599
+40000,Sales Revenue,Revenue,2024-12,0,7906
+40001,Service Revenue,Revenue,2024-12,0,254
+40002,Interest Income,Revenue,2024-12,0,1509
+40003,Other Income,Revenue,2024-12,0,884
+50000,Salary Expense,Expense,2024-12,8196,0
+50001,Rent Expense,Expense,2024-12,7660,0
+50002,Utilities Expense,Expense,2024-12,7443,0
+50003,Supplies Expense,Expense,2024-12,7306,0
+50004,Depreciation Expense,Expense,2024-12,5696,0
+50005,Marketing Expense,Expense,2024-12,5901,0
+50006,Travel Expense,Expense,2024-12,2906,0
+50007,Insurance Expense,Expense,2024-12,637,0
+50008,IT Expense,Expense,2024-12,6086,0
+50009,Bank Charges,Expense,2024-12,1941,0
+50010,Telephone Expense,Expense,2024-12,8816,0
+50011,Repairs & Maintenance,Expense,2024-12,7071,0
+50012,Payroll Tax Expense,Expense,2024-12,5725,0
+50013,Training Expense,Expense,2024-12,3050,0
+10000,Cash,Asset,2025-01,8092,0
+10001,Accounts Receivable,Asset,2025-01,4880,0
+10002,Inventory,Asset,2025-01,2468,0
+10003,Prepaid Expenses,Asset,2025-01,6755,0
+10004,Fixed Assets,Asset,2025-01,8273,0
+20000,Accounts Payable,Liability,2025-01,0,4595
+20001,Accrued Expenses,Liability,2025-01,0,9263
+20002,Short-Term Debt,Liability,2025-01,0,6102
+20003,Long-Term Debt,Liability,2025-01,0,6714
+30000,Common Stock,Equity,2025-01,0,9458
+30001,Retained Earnings,Equity,2025-01,0,45799
+40000,Sales Revenue,Revenue,2025-01,0,953
+40001,Service Revenue,Revenue,2025-01,0,4246
+40002,Interest Income,Revenue,2025-01,0,3869
+40003,Other Income,Revenue,2025-01,0,674
+50000,Salary Expense,Expense,2025-01,1248,0
+50001,Rent Expense,Expense,2025-01,6393,0
+50002,Utilities Expense,Expense,2025-01,6557,0
+50003,Supplies Expense,Expense,2025-01,7609,0
+50004,Depreciation Expense,Expense,2025-01,4877,0
+50005,Marketing Expense,Expense,2025-01,3954,0
+50006,Travel Expense,Expense,2025-01,2591,0
+50007,Insurance Expense,Expense,2025-01,3224,0
+50008,IT Expense,Expense,2025-01,5791,0
+50009,Bank Charges,Expense,2025-01,3151,0
+50010,Telephone Expense,Expense,2025-01,104,0
+50011,Repairs & Maintenance,Expense,2025-01,5322,0
+50012,Payroll Tax Expense,Expense,2025-01,5415,0
+50013,Training Expense,Expense,2025-01,4969,0
+10000,Cash,Asset,2025-02,976,0
+10001,Accounts Receivable,Asset,2025-02,9283,0
+10002,Inventory,Asset,2025-02,7127,0
+10003,Prepaid Expenses,Asset,2025-02,4242,0
+10004,Fixed Assets,Asset,2025-02,7066,0
+20000,Accounts Payable,Liability,2025-02,0,7179
+20001,Accrued Expenses,Liability,2025-02,0,8087
+20002,Short-Term Debt,Liability,2025-02,0,6899
+20003,Long-Term Debt,Liability,2025-02,0,4565
+30000,Common Stock,Equity,2025-02,0,735
+30001,Retained Earnings,Equity,2025-02,0,50134
+40000,Sales Revenue,Revenue,2025-02,0,9974
+40001,Service Revenue,Revenue,2025-02,0,4852
+40002,Interest Income,Revenue,2025-02,0,8411
+40003,Other Income,Revenue,2025-02,0,930
+50000,Salary Expense,Expense,2025-02,5277,0
+50001,Rent Expense,Expense,2025-02,9661,0
+50002,Utilities Expense,Expense,2025-02,9032,0
+50003,Supplies Expense,Expense,2025-02,8408,0
+50004,Depreciation Expense,Expense,2025-02,6049,0
+50005,Marketing Expense,Expense,2025-02,2938,0
+50006,Travel Expense,Expense,2025-02,1250,0
+50007,Insurance Expense,Expense,2025-02,7660,0
+50008,IT Expense,Expense,2025-02,2031,0
+50009,Bank Charges,Expense,2025-02,9304,0
+50010,Telephone Expense,Expense,2025-02,1764,0
+50011,Repairs & Maintenance,Expense,2025-02,1181,0
+50012,Payroll Tax Expense,Expense,2025-02,612,0
+50013,Training Expense,Expense,2025-02,7905,0
+10000,Cash,Asset,2025-03,5337,0
+10001,Accounts Receivable,Asset,2025-03,659,0
+10002,Inventory,Asset,2025-03,3772,0
+10003,Prepaid Expenses,Asset,2025-03,7504,0
+10004,Fixed Assets,Asset,2025-03,3443,0
+20000,Accounts Payable,Liability,2025-03,0,4170
+20001,Accrued Expenses,Liability,2025-03,0,9762
+20002,Short-Term Debt,Liability,2025-03,0,680
+20003,Long-Term Debt,Liability,2025-03,0,7104
+30000,Common Stock,Equity,2025-03,0,8230
+30001,Retained Earnings,Equity,2025-03,0,54655
+40000,Sales Revenue,Revenue,2025-03,0,4349
+40001,Service Revenue,Revenue,2025-03,0,1779
+40002,Interest Income,Revenue,2025-03,0,3606
+40003,Other Income,Revenue,2025-03,0,7353
+50000,Salary Expense,Expense,2025-03,2844,0
+50001,Rent Expense,Expense,2025-03,9535,0
+50002,Utilities Expense,Expense,2025-03,5288,0
+50003,Supplies Expense,Expense,2025-03,2241,0
+50004,Depreciation Expense,Expense,2025-03,6717,0
+50005,Marketing Expense,Expense,2025-03,2579,0
+50006,Travel Expense,Expense,2025-03,6584,0
+50007,Insurance Expense,Expense,2025-03,9927,0
+50008,IT Expense,Expense,2025-03,7521,0
+50009,Bank Charges,Expense,2025-03,4552,0
+50010,Telephone Expense,Expense,2025-03,5981,0
+50011,Repairs & Maintenance,Expense,2025-03,6765,0
+50012,Payroll Tax Expense,Expense,2025-03,2949,0
+50013,Training Expense,Expense,2025-03,7490,0
+10000,Cash,Asset,2025-04,7005,0
+10001,Accounts Receivable,Asset,2025-04,2589,0
+10002,Inventory,Asset,2025-04,9923,0
+10003,Prepaid Expenses,Asset,2025-04,9307,0
+10004,Fixed Assets,Asset,2025-04,9640,0
+20000,Accounts Payable,Liability,2025-04,0,4711
+20001,Accrued Expenses,Liability,2025-04,0,2939
+20002,Short-Term Debt,Liability,2025-04,0,8627
+20003,Long-Term Debt,Liability,2025-04,0,5978
+30000,Common Stock,Equity,2025-04,0,9187
+30001,Retained Earnings,Equity,2025-04,0,69346
+40000,Sales Revenue,Revenue,2025-04,0,951
+40001,Service Revenue,Revenue,2025-04,0,1787
+40002,Interest Income,Revenue,2025-04,0,6933
+40003,Other Income,Revenue,2025-04,0,2527
+50000,Salary Expense,Expense,2025-04,9860,0
+50001,Rent Expense,Expense,2025-04,4100,0
+50002,Utilities Expense,Expense,2025-04,5152,0
+50003,Supplies Expense,Expense,2025-04,2838,0
+50004,Depreciation Expense,Expense,2025-04,5832,0
+50005,Marketing Expense,Expense,2025-04,5487,0
+50006,Travel Expense,Expense,2025-04,8102,0
+50007,Insurance Expense,Expense,2025-04,5636,0
+50008,IT Expense,Expense,2025-04,4013,0
+50009,Bank Charges,Expense,2025-04,1166,0
+50010,Telephone Expense,Expense,2025-04,7823,0
+50011,Repairs & Maintenance,Expense,2025-04,4480,0
+50012,Payroll Tax Expense,Expense,2025-04,4207,0
+50013,Training Expense,Expense,2025-04,5826,0
+10000,Cash,Asset,2025-05,3473,0
+10001,Accounts Receivable,Asset,2025-05,9045,0
+10002,Inventory,Asset,2025-05,2182,0
+10003,Prepaid Expenses,Asset,2025-05,9067,0
+10004,Fixed Assets,Asset,2025-05,6848,0
+20000,Accounts Payable,Liability,2025-05,0,9917
+20001,Accrued Expenses,Liability,2025-05,0,517
+20002,Short-Term Debt,Liability,2025-05,0,8406
+20003,Long-Term Debt,Liability,2025-05,0,8908
+30000,Common Stock,Equity,2025-05,0,4074
+30001,Retained Earnings,Equity,2025-05,0,34238
+40000,Sales Revenue,Revenue,2025-05,0,925
+40001,Service Revenue,Revenue,2025-05,0,7768
+40002,Interest Income,Revenue,2025-05,0,5845
+40003,Other Income,Revenue,2025-05,0,9808
+50000,Salary Expense,Expense,2025-05,512,0
+50001,Rent Expense,Expense,2025-05,7643,0
+50002,Utilities Expense,Expense,2025-05,7687,0
+50003,Supplies Expense,Expense,2025-05,828,0
+50004,Depreciation Expense,Expense,2025-05,7264,0
+50005,Marketing Expense,Expense,2025-05,8967,0
+50006,Travel Expense,Expense,2025-05,6088,0
+50007,Insurance Expense,Expense,2025-05,2604,0
+50008,IT Expense,Expense,2025-05,3067,0
+50009,Bank Charges,Expense,2025-05,2886,0
+50010,Telephone Expense,Expense,2025-05,1222,0
+50011,Repairs & Maintenance,Expense,2025-05,4179,0
+50012,Payroll Tax Expense,Expense,2025-05,1671,0
+50013,Training Expense,Expense,2025-05,5173,0
+10000,Cash,Asset,2025-06,5204,0
+10001,Accounts Receivable,Asset,2025-06,2243,0
+10002,Inventory,Asset,2025-06,9979,0
+10003,Prepaid Expenses,Asset,2025-06,6906,0
+10004,Fixed Assets,Asset,2025-06,7457,0
+20000,Accounts Payable,Liability,2025-06,0,3540
+20001,Accrued Expenses,Liability,2025-06,0,3866
+20002,Short-Term Debt,Liability,2025-06,0,5744
+20003,Long-Term Debt,Liability,2025-06,0,3014
+30000,Common Stock,Equity,2025-06,0,5068
+30001,Retained Earnings,Equity,2025-06,0,58225
+40000,Sales Revenue,Revenue,2025-06,0,8887
+40001,Service Revenue,Revenue,2025-06,0,828
+40002,Interest Income,Revenue,2025-06,0,1465
+40003,Other Income,Revenue,2025-06,0,4592
+50000,Salary Expense,Expense,2025-06,798,0
+50001,Rent Expense,Expense,2025-06,7286,0
+50002,Utilities Expense,Expense,2025-06,495,0
+50003,Supplies Expense,Expense,2025-06,7500,0
+50004,Depreciation Expense,Expense,2025-06,8182,0
+50005,Marketing Expense,Expense,2025-06,4271,0
+50006,Travel Expense,Expense,2025-06,4460,0
+50007,Insurance Expense,Expense,2025-06,2602,0
+50008,IT Expense,Expense,2025-06,817,0
+50009,Bank Charges,Expense,2025-06,2882,0
+50010,Telephone Expense,Expense,2025-06,5046,0
+50011,Repairs & Maintenance,Expense,2025-06,5586,0
+50012,Payroll Tax Expense,Expense,2025-06,8435,0
+50013,Training Expense,Expense,2025-06,5080,0
+10000,Cash,Asset,2025-07,7366,0
+10001,Accounts Receivable,Asset,2025-07,4591,0
+10002,Inventory,Asset,2025-07,7292,0
+10003,Prepaid Expenses,Asset,2025-07,5688,0
+10004,Fixed Assets,Asset,2025-07,7751,0
+20000,Accounts Payable,Liability,2025-07,0,3736
+20001,Accrued Expenses,Liability,2025-07,0,1267
+20002,Short-Term Debt,Liability,2025-07,0,1162
+20003,Long-Term Debt,Liability,2025-07,0,2256
+30000,Common Stock,Equity,2025-07,0,7960
+30001,Retained Earnings,Equity,2025-07,0,68314
+40000,Sales Revenue,Revenue,2025-07,0,5405
+40001,Service Revenue,Revenue,2025-07,0,6641
+40002,Interest Income,Revenue,2025-07,0,4829
+40003,Other Income,Revenue,2025-07,0,9448
+50000,Salary Expense,Expense,2025-07,7430,0
+50001,Rent Expense,Expense,2025-07,5434,0
+50002,Utilities Expense,Expense,2025-07,9024,0
+50003,Supplies Expense,Expense,2025-07,4430,0
+50004,Depreciation Expense,Expense,2025-07,8110,0
+50005,Marketing Expense,Expense,2025-07,6901,0
+50006,Travel Expense,Expense,2025-07,4946,0
+50007,Insurance Expense,Expense,2025-07,6831,0
+50008,IT Expense,Expense,2025-07,7341,0
+50009,Bank Charges,Expense,2025-07,1053,0
+50010,Telephone Expense,Expense,2025-07,2639,0
+50011,Repairs & Maintenance,Expense,2025-07,7156,0
+50012,Payroll Tax Expense,Expense,2025-07,1642,0
+50013,Training Expense,Expense,2025-07,5393,0
+10000,Cash,Asset,2025-08,1291,0
+10001,Accounts Receivable,Asset,2025-08,6413,0
+10002,Inventory,Asset,2025-08,7038,0
+10003,Prepaid Expenses,Asset,2025-08,2781,0
+10004,Fixed Assets,Asset,2025-08,9509,0
+20000,Accounts Payable,Liability,2025-08,0,1640
+20001,Accrued Expenses,Liability,2025-08,0,6272
+20002,Short-Term Debt,Liability,2025-08,0,5641
+20003,Long-Term Debt,Liability,2025-08,0,9680
+30000,Common Stock,Equity,2025-08,0,1465
+30001,Retained Earnings,Equity,2025-08,0,42377
+40000,Sales Revenue,Revenue,2025-08,0,9972
+40001,Service Revenue,Revenue,2025-08,0,8802
+40002,Interest Income,Revenue,2025-08,0,7594
+40003,Other Income,Revenue,2025-08,0,4412
+50000,Salary Expense,Expense,2025-08,1424,0
+50001,Rent Expense,Expense,2025-08,9447,0
+50002,Utilities Expense,Expense,2025-08,3241,0
+50003,Supplies Expense,Expense,2025-08,7519,0
+50004,Depreciation Expense,Expense,2025-08,3586,0
+50005,Marketing Expense,Expense,2025-08,1910,0
+50006,Travel Expense,Expense,2025-08,6688,0
+50007,Insurance Expense,Expense,2025-08,3023,0
+50008,IT Expense,Expense,2025-08,5401,0
+50009,Bank Charges,Expense,2025-08,4286,0
+50010,Telephone Expense,Expense,2025-08,9005,0
+50011,Repairs & Maintenance,Expense,2025-08,6077,0
+50012,Payroll Tax Expense,Expense,2025-08,4368,0
+50013,Training Expense,Expense,2025-08,4848,0
+10000,Cash,Asset,2025-09,4949,0
+10001,Accounts Receivable,Asset,2025-09,9535,0
+10002,Inventory,Asset,2025-09,3809,0
+10003,Prepaid Expenses,Asset,2025-09,9373,0
+10004,Fixed Assets,Asset,2025-09,6719,0
+20000,Accounts Payable,Liability,2025-09,0,8747
+20001,Accrued Expenses,Liability,2025-09,0,9186
+20002,Short-Term Debt,Liability,2025-09,0,9676
+20003,Long-Term Debt,Liability,2025-09,0,3172
+30000,Common Stock,Equity,2025-09,0,6630
+30001,Retained Earnings,Equity,2025-09,0,41517
+40000,Sales Revenue,Revenue,2025-09,0,1314
+40001,Service Revenue,Revenue,2025-09,0,1631
+40002,Interest Income,Revenue,2025-09,0,7676
+40003,Other Income,Revenue,2025-09,0,923
+50000,Salary Expense,Expense,2025-09,1028,0
+50001,Rent Expense,Expense,2025-09,5129,0
+50002,Utilities Expense,Expense,2025-09,233,0
+50003,Supplies Expense,Expense,2025-09,2205,0
+50004,Depreciation Expense,Expense,2025-09,3727,0
+50005,Marketing Expense,Expense,2025-09,6416,0
+50006,Travel Expense,Expense,2025-09,1952,0
+50007,Insurance Expense,Expense,2025-09,5010,0
+50008,IT Expense,Expense,2025-09,4275,0
+50009,Bank Charges,Expense,2025-09,5448,0
+50010,Telephone Expense,Expense,2025-09,9542,0
+50011,Repairs & Maintenance,Expense,2025-09,6290,0
+50012,Payroll Tax Expense,Expense,2025-09,1356,0
+50013,Training Expense,Expense,2025-09,3476,0
+10000,Cash,Asset,2025-10,5745,0
+10001,Accounts Receivable,Asset,2025-10,3586,0
+10002,Inventory,Asset,2025-10,3684,0
+10003,Prepaid Expenses,Asset,2025-10,9688,0
+10004,Fixed Assets,Asset,2025-10,8153,0
+20000,Accounts Payable,Liability,2025-10,0,3430
+20001,Accrued Expenses,Liability,2025-10,0,2803
+20002,Short-Term Debt,Liability,2025-10,0,8762
+20003,Long-Term Debt,Liability,2025-10,0,8220
+30000,Common Stock,Equity,2025-10,0,7214
+30001,Retained Earnings,Equity,2025-10,0,54033
+40000,Sales Revenue,Revenue,2025-10,0,5163
+40001,Service Revenue,Revenue,2025-10,0,8649
+40002,Interest Income,Revenue,2025-10,0,7675
+40003,Other Income,Revenue,2025-10,0,767
+50000,Salary Expense,Expense,2025-10,4568,0
+50001,Rent Expense,Expense,2025-10,9437,0
+50002,Utilities Expense,Expense,2025-10,6919,0
+50003,Supplies Expense,Expense,2025-10,3819,0
+50004,Depreciation Expense,Expense,2025-10,2845,0
+50005,Marketing Expense,Expense,2025-10,7583,0
+50006,Travel Expense,Expense,2025-10,639,0
+50007,Insurance Expense,Expense,2025-10,5064,0
+50008,IT Expense,Expense,2025-10,4935,0
+50009,Bank Charges,Expense,2025-10,3875,0
+50010,Telephone Expense,Expense,2025-10,6142,0
+50011,Repairs & Maintenance,Expense,2025-10,7202,0
+50012,Payroll Tax Expense,Expense,2025-10,7412,0
+50013,Training Expense,Expense,2025-10,5420,0
+10000,Cash,Asset,2025-11,6232,0
+10001,Accounts Receivable,Asset,2025-11,7991,0
+10002,Inventory,Asset,2025-11,2879,0
+10003,Prepaid Expenses,Asset,2025-11,1024,0
+10004,Fixed Assets,Asset,2025-11,1681,0
+20000,Accounts Payable,Liability,2025-11,0,7814
+20001,Accrued Expenses,Liability,2025-11,0,3424
+20002,Short-Term Debt,Liability,2025-11,0,5813
+20003,Long-Term Debt,Liability,2025-11,0,7126
+30000,Common Stock,Equity,2025-11,0,355
+30001,Retained Earnings,Equity,2025-11,0,53999
+40000,Sales Revenue,Revenue,2025-11,0,1938
+40001,Service Revenue,Revenue,2025-11,0,109
+40002,Interest Income,Revenue,2025-11,0,2971
+40003,Other Income,Revenue,2025-11,0,9089
+50000,Salary Expense,Expense,2025-11,7509,0
+50001,Rent Expense,Expense,2025-11,7518,0
+50002,Utilities Expense,Expense,2025-11,5224,0
+50003,Supplies Expense,Expense,2025-11,1115,0
+50004,Depreciation Expense,Expense,2025-11,2293,0
+50005,Marketing Expense,Expense,2025-11,8515,0
+50006,Travel Expense,Expense,2025-11,7549,0
+50007,Insurance Expense,Expense,2025-11,4258,0
+50008,IT Expense,Expense,2025-11,4025,0
+50009,Bank Charges,Expense,2025-11,7070,0
+50010,Telephone Expense,Expense,2025-11,7038,0
+50011,Repairs & Maintenance,Expense,2025-11,4884,0
+50012,Payroll Tax Expense,Expense,2025-11,4100,0
+50013,Training Expense,Expense,2025-11,1733,0
+10000,Cash,Asset,2025-12,7366,0
+10001,Accounts Receivable,Asset,2025-12,8802,0
+10002,Inventory,Asset,2025-12,484,0
+10003,Prepaid Expenses,Asset,2025-12,504,0
+10004,Fixed Assets,Asset,2025-12,8275,0
+20000,Accounts Payable,Liability,2025-12,0,2100
+20001,Accrued Expenses,Liability,2025-12,0,9960
+20002,Short-Term Debt,Liability,2025-12,0,6089
+20003,Long-Term Debt,Liability,2025-12,0,1560
+30000,Common Stock,Equity,2025-12,0,7290
+30001,Retained Earnings,Equity,2025-12,0,52267
+40000,Sales Revenue,Revenue,2025-12,0,3736
+40001,Service Revenue,Revenue,2025-12,0,4909
+40002,Interest Income,Revenue,2025-12,0,4278
+40003,Other Income,Revenue,2025-12,0,7345
+50000,Salary Expense,Expense,2025-12,6700,0
+50001,Rent Expense,Expense,2025-12,6097,0
+50002,Utilities Expense,Expense,2025-12,2148,0
+50003,Supplies Expense,Expense,2025-12,4880,0
+50004,Depreciation Expense,Expense,2025-12,816,0
+50005,Marketing Expense,Expense,2025-12,8039,0
+50006,Travel Expense,Expense,2025-12,5665,0
+50007,Insurance Expense,Expense,2025-12,4644,0
+50008,IT Expense,Expense,2025-12,5076,0
+50009,Bank Charges,Expense,2025-12,3519,0
+50010,Telephone Expense,Expense,2025-12,7339,0
+50011,Repairs & Maintenance,Expense,2025-12,9866,0
+50012,Payroll Tax Expense,Expense,2025-12,349,0
+50013,Training Expense,Expense,2025-12,8965,0
